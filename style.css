@@ -13,11 +13,12 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(18em, 1fr));
   justify-content: center;
   font-family: sans-serif;
+  margin:0px;
 }
 
 .keys {
   display: grid;
-  justify-content: center;
+  justify-items: center;
   padding-top: 55vh;  
 }
 .key {
@@ -49,7 +50,7 @@ kbd {
 }
 .sound {
   margin-top: 40px;
-  font-size: 40px;
+  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: .1em;
   color: #dfa232ef;
