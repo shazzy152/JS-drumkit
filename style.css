@@ -12,6 +12,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(18em, 1fr));
   justify-content: center;
+  justify-items: center;
   font-family: sans-serif;
   margin:0px;
 }
