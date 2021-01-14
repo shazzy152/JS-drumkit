@@ -10,7 +10,7 @@ html {
 }
 body {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
   justify-content: center;
   font-family: sans-serif;
 }
@@ -25,24 +25,24 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   border: .8rem solid black;
-  border-radius: 3rem;
-  margin: 1.8rem;
-  padding: 0.5rem;
+  border-radius: 3em;
+  margin: 1.8em;
+  padding: 0.5em;
   transition: all .15s ease;
-  width: 3rem;
-  height: 3rem;
+  width: 3em;
+  height: 3em;
   text-align: center;
   color: rgba(255, 255, 255, 0.904);
   background: rgba(0,0,0,0.2);
-  text-shadow: 0 0 .5rem black;
+  text-shadow: 0 0 .5em black;
 }
 .playing {
   transform: scale(1.1);
   border-color: #ffffff;
-  box-shadow: 0 0 3rem #ffc600;
+  box-shadow: 0 0 3em #ffc600;
 }
 kbd {
-  font-size: 18rem;
+  font-size: 8em;
   margin-right: 99px;
   margin-left: auto;
   margin-top: 30px;
@@ -51,6 +51,6 @@ kbd {
   margin-top: 220px;
   font-size: 5rem;
   text-transform: uppercase;
-  letter-spacing: .1rem;
+  letter-spacing: .1em;
   color: #dfa232ef;
 }
