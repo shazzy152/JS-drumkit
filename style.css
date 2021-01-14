@@ -2,15 +2,24 @@ html {
     font-size: 10px;
     background: url('./drumKit/background.jpg') no-repeat center center fixed;
     background-size: cover;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
 }
-body,html {
-  display: flex;
-  justify-content: center;  
-  flex-wrap: wrap;
+body {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(77rem, 1fr));
+  justify-content: center;
+  grid-gap: auto; 
   font-family: sans-serif;
 }
+
 .keys {
-  padding-top: 50vh;  
+  display: grid;
+  justify-content: center;
+  padding-top: 55vh;  
 }
 .key {
   display: flex;
