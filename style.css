@@ -10,7 +10,7 @@ html {
 }
 body {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(27em, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(18em, 1fr));
   justify-content: center;
   font-family: sans-serif;
 }
@@ -24,10 +24,10 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  border: 0.8em solid black;
-  border-radius: 0.3em;
-  margin: 18em;
-  padding: 5em;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  margin: 75px;
+  padding: 20px;
   transition: all .15s ease;
   width: 70px;
   height: 70px;
@@ -48,8 +48,8 @@ kbd {
   margin-top: 30px;
 }
 .sound {
-  margin-top: 220px;
-  font-size: 1em;
+  margin-top: 40px;
+  font-size: 40px;
   text-transform: uppercase;
   letter-spacing: .1em;
   color: #dfa232ef;
